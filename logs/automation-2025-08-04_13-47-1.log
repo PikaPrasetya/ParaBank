@@ -1,0 +1,4 @@
+[2025-08-04 13:47:47] [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Eclipse Workspace\Parabank\xml\master.xml"
+[2025-08-04 13:47:48] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Eclipse Workspace\Parabank\xml\master.xml
+
