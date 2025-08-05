@@ -15,6 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class baseTest {
@@ -26,7 +27,7 @@ public class baseTest {
 	
 	@BeforeClass(groups= {"regression","master","sanity"})
 	@Parameters({"os","browser"})
-	public void setup(String os, String browser) throws IOException
+	public void setup(@Optional("Windows11") String os, @Optional("chrome") String browser) throws IOException
 	{
 		propObj = new Properties();
 		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"//src//test//resources//config.properties");

@@ -1,14 +1,17 @@
-[2025-08-04 14:22:00] [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Eclipse Workspace\Parabank\xml\master.xml"
-[2025-08-04 14:22:05] [main] INFO  testCases.TC001_accountRegistration - Click Register link
-[2025-08-04 14:22:06] [main] INFO  testCases.TC001_accountRegistration - Fill user info
-[2025-08-04 14:22:07] [main] INFO  testCases.TC001_accountRegistration - Click Register button
-[2025-08-04 14:22:07] [main] INFO  testCases.TC001_accountRegistration - Validate successful registration
-[2025-08-04 14:22:07] [main] INFO  testCases.TC001_accountRegistration - Send newly created account to config.properties
-[2025-08-04 14:22:11] [main] INFO  testCases.TC003_login - Fill username & passowrd
-[2025-08-04 14:22:15] [main] INFO  testCases.TC003_login - Click login button
-[2025-08-04 14:22:15] [main] INFO  testCases.TC003_login - Validate Login successful
-[2025-08-04 14:22:18] [main] INFO  testCases.TC004_billPayment - Login process
-[2025-08-04 14:22:23] [main] INFO  testCases.TC004_billPayment - click Bill Pay
-[2025-08-04 14:22:24] [main] INFO  testCases.TC004_billPayment - Fill payment info
-[2025-08-04 14:22:24] [main] INFO  testCases.TC004_billPayment - Click Send Payment button
-[2025-08-04 14:22:25] [main] INFO  testCases.TC004_billPayment - Validating payment
+[2025-08-05 11:23:32] [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Eclipse Workspace\Parabank\xml\master.xml"
+[2025-08-05 11:23:33] [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Eclipse Workspace\Parabank\xml\master.xml
+
+[2025-08-05 11:23:37] [main] INFO  testCases.TC001_accountRegistration - Click Register link
+[2025-08-05 11:23:38] [main] INFO  testCases.TC001_accountRegistration - Fill user info
+[2025-08-05 11:23:38] [main] INFO  testCases.TC001_accountRegistration - Click Register button
+[2025-08-05 11:23:38] [main] INFO  testCases.TC001_accountRegistration - Validate successful registration
+[2025-08-05 11:23:38] [main] INFO  testCases.TC001_accountRegistration - Send newly created account to config.properties
+[2025-08-05 11:23:41] [main] INFO  testCases.TC003_login - Fill username & passowrd
+[2025-08-05 11:23:41] [main] INFO  testCases.TC003_login - Click login button
+[2025-08-05 11:23:42] [main] INFO  testCases.TC003_login - Validate Login successful
+[2025-08-05 11:23:45] [main] INFO  testCases.TC004_billPayment - Login process
+[2025-08-05 11:23:46] [main] INFO  testCases.TC004_billPayment - click Bill Pay
+[2025-08-05 11:23:47] [main] INFO  testCases.TC004_billPayment - Fill payment info
+[2025-08-05 11:23:47] [main] INFO  testCases.TC004_billPayment - Click Send Payment button
+[2025-08-05 11:23:48] [main] INFO  testCases.TC004_billPayment - Validating payment

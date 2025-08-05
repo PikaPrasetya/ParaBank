@@ -2,7 +2,9 @@ package testCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -19,7 +21,7 @@ public class TC001_accountRegistration extends baseTest {
 	
 	@Parameters("browser")
 	@Test(groups={"regression","master"})
-	public void accRegistration(String browser) throws IOException
+	public void accRegistration(@Optional("chrome") String browser) throws IOException
 	{
 		randomizer random = new randomizer();
 		homePage hp = new homePage(driver);
@@ -27,6 +29,7 @@ public class TC001_accountRegistration extends baseTest {
 		accountPage ap = new accountPage(driver);
 		browser = browser.toLowerCase();
 		
+		wait.until(ExpectedConditions.visibilityOf(hp.registerLink));
 		hp.clickRegister();
 		logger.info("Click Register link");
 		

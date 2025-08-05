@@ -3,6 +3,7 @@ package testCases;
 import java.util.Properties;
 
 import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ public class TC003_login extends baseTest{
 	
 	@Parameters("browser")
 	@Test(groups= {"regression","master"})
-	public void login(String browser)
+	public void login(@Optional("chrome") String browser)
 	{
 		browser=browser.toLowerCase();
 		homePage hp = new homePage(driver);

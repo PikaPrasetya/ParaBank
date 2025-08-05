@@ -17,10 +17,10 @@ public class registerPage extends basePage {
 	WebElement firstNameField;
 	
 	//by name
-	@FindBy(name="customer.lastName")
+	@FindBy(id="customer.lastName")
 	WebElement lastNameField;
 	
-	@FindBy(xpath="//input[@name='customer.address.street']")
+	@FindBy(id="customer.address.street")
 	WebElement addressField;
 	
 	//by css, attribute: id
@@ -31,25 +31,25 @@ public class registerPage extends basePage {
 	@FindBy(css="input[name='customer.address.state']")
 	WebElement stateField;
 	
-	@FindBy(xpath="//input[@id='customer.address.zipCode']")
+	@FindBy(id="customer.address.zipCode")
 	WebElement zipCode;
 	
-	@FindBy(xpath="//input[@id='customer.phoneNumber']")
+	@FindBy(id="customer.phoneNumber")
 	WebElement phoneNumber;
 	
-	@FindBy(xpath="//input[@id='customer.ssn']")
+	@FindBy(id="customer.ssn")
 	WebElement SSN;
 	
-	@FindBy(xpath="//input[@id='customer.username']")
+	@FindBy(id="customer.username")
 	WebElement userName;
 	
-	@FindBy(xpath="//input[@id='customer.password']")
+	@FindBy(id="customer.password")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@id='repeatedPassword']")
+	@FindBy(id="repeatedPassword")
 	WebElement confirmPassword;
 	
-	@FindBy(xpath="//input[@value='Register']")
+	@FindBy(css="input.button[value='Register']")
 	WebElement btnRegister;
 	
 	//actions

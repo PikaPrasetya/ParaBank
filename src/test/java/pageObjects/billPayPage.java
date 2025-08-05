@@ -15,40 +15,40 @@ public class billPayPage extends basePage {
 	randomizer random = new randomizer();
 	String payeeAccNum = null;
 	
-	@FindBy(xpath="//input[@name='payee.name']")
+	@FindBy(name="payee.name")
 	WebElement payeeNameField;
 	
-	@FindBy(xpath="//input[@name='payee.address.street']")
+	@FindBy(name="payee.address.street")
 	WebElement payeeStreet;
 	
-	@FindBy(xpath="//input[@name='payee.address.city']")
+	@FindBy(name="payee.address.city")
 	WebElement payeeCity;
 	
-	@FindBy(xpath="//input[@name='payee.address.state']")
+	@FindBy(name="payee.address.state")
 	WebElement payeeState;
 	
-	@FindBy(xpath="//input[@name='payee.address.zipCode']")
+	@FindBy(name="payee.address.zipCode")
 	WebElement zipCode;
 	
-	@FindBy(xpath="//input[@name='payee.phoneNumber']")
+	@FindBy(name="payee.phoneNumber")
 	WebElement phoneNumber;
 	
-	@FindBy(xpath="//input[@name='payee.accountNumber']")
+	@FindBy(name="payee.accountNumber")
 	WebElement payeeAccountNumber;
 	
-	@FindBy(xpath="//input[@name='verifyAccount']")
+	@FindBy(name="verifyAccount")
 	WebElement verifyAccount;
 	
-	@FindBy(xpath="//input[@name='amount']")
+	@FindBy(name="amount")
 	WebElement amountField;
 	
-	@FindBy(xpath="//input[@value='Send Payment']")
+	@FindBy(css="input.button")
 	WebElement sendPaymentBtn;
 	
-	@FindBy(xpath="//span[@id='payeeName']")
+	@FindBy(id="payeeName")
 	public WebElement payeeNameReceipt;
 
-	@FindBy(xpath="//span[@id='amount']")
+	@FindBy(id="amount")
 	public WebElement amountReceipt;
 	
 	public void setPayeeName(String payeeName)

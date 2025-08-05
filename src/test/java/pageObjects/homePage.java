@@ -12,16 +12,16 @@ public class homePage extends basePage {
 	
 	//Objects Locator
 	@FindBy(name="username")
-	WebElement usernameField;
+	public WebElement usernameField;
 	
 	@FindBy(name="password")
-	WebElement passwordField;
+	public WebElement passwordField;
 	
-	@FindBy(xpath="//a[normalize-space()='Register']")
-	WebElement registerLink;
+	@FindBy(linkText="Register")
+	public WebElement registerLink;
 	
-	@FindBy(xpath="//input[@value='Log In']")
-	WebElement loginButton;
+	@FindBy(css="input.button")
+	public WebElement loginButton;
 	
 	//Actions
 	public void enterUsername(String username)

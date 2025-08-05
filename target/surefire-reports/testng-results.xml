@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-04T14:22:01 WIB" name="Suite" finished-at="2025-08-04T14:22:26 WIB" duration-ms="24910">
+  <suite started-at="2025-08-04T18:02:18 WIB" name="Suite" finished-at="2025-08-04T18:02:32 WIB" duration-ms="14565">
     <groups>
       <group name="regression">
-        <method signature="TC001_accountRegistration.accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@2ef14fe]" name="accRegistration" class="testCases.TC001_accountRegistration"/>
-        <method signature="TC003_login.login(java.lang.String)[pri:0, instance:testCases.TC003_login@3f9342d4]" name="login" class="testCases.TC003_login"/>
+        <method signature="TC001_accountRegistration.accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@63611043]" name="accRegistration" class="testCases.TC001_accountRegistration"/>
+        <method signature="TC003_login.login(java.lang.String)[pri:0, instance:testCases.TC003_login@6c2ed0cd]" name="login" class="testCases.TC003_login"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC004_billPayment.billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@ab7395e]" name="billPayment" class="testCases.TC004_billPayment"/>
+        <method signature="TC004_billPayment.billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@7d9e8ef7]" name="billPayment" class="testCases.TC004_billPayment"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC001_accountRegistration.accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@2ef14fe]" name="accRegistration" class="testCases.TC001_accountRegistration"/>
-        <method signature="TC003_login.login(java.lang.String)[pri:0, instance:testCases.TC003_login@3f9342d4]" name="login" class="testCases.TC003_login"/>
-        <method signature="TC004_billPayment.billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@ab7395e]" name="billPayment" class="testCases.TC004_billPayment"/>
+        <method signature="TC001_accountRegistration.accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@63611043]" name="accRegistration" class="testCases.TC001_accountRegistration"/>
+        <method signature="TC003_login.login(java.lang.String)[pri:0, instance:testCases.TC003_login@6c2ed0cd]" name="login" class="testCases.TC003_login"/>
+        <method signature="TC004_billPayment.billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@7d9e8ef7]" name="billPayment" class="testCases.TC004_billPayment"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-08-04T14:22:01 WIB" name="Test" finished-at="2025-08-04T14:22:26 WIB" duration-ms="24910">
+    <test started-at="2025-08-04T18:02:18 WIB" name="Test" finished-at="2025-08-04T18:02:32 WIB" duration-ms="14565">
       <class name="testCases.TC003_login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_login@3f9342d4]" started-at="2025-08-04T14:22:07 WIB" name="setup" finished-at="2025-08-04T14:22:10 WIB" duration-ms="3479" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_login@6c2ed0cd]" started-at="2025-08-04T18:02:24 WIB" name="setup" finished-at="2025-08-04T18:02:26 WIB" duration-ms="2535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String)[pri:0, instance:testCases.TC003_login@3f9342d4]" started-at="2025-08-04T14:22:10 WIB" name="login" finished-at="2025-08-04T14:22:15 WIB" duration-ms="4115" status="PASS">
+        <test-method signature="login(java.lang.String)[pri:0, instance:testCases.TC003_login@6c2ed0cd]" started-at="2025-08-04T18:02:26 WIB" name="login" finished-at="2025-08-04T18:02:27 WIB" duration-ms="1231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,13 +46,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_login@3f9342d4]" started-at="2025-08-04T14:22:15 WIB" name="tearDown" finished-at="2025-08-04T14:22:15 WIB" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_login@6c2ed0cd]" started-at="2025-08-04T18:02:27 WIB" name="tearDown" finished-at="2025-08-04T18:02:28 WIB" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_login -->
       <class name="testCases.TC001_accountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@2ef14fe]" started-at="2025-08-04T14:22:01 WIB" name="setup" finished-at="2025-08-04T14:22:05 WIB" duration-ms="3819" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@63611043]" started-at="2025-08-04T18:02:18 WIB" name="setup" finished-at="2025-08-04T18:02:22 WIB" duration-ms="4202" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@2ef14fe]" started-at="2025-08-04T14:22:05 WIB" name="accRegistration" finished-at="2025-08-04T14:22:07 WIB" duration-ms="2079" status="PASS">
+        <test-method signature="accRegistration(java.lang.String)[pri:0, instance:testCases.TC001_accountRegistration@63611043]" started-at="2025-08-04T18:02:22 WIB" name="accRegistration" finished-at="2025-08-04T18:02:24 WIB" duration-ms="1537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,13 +79,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_accountRegistration@2ef14fe]" started-at="2025-08-04T14:22:07 WIB" name="tearDown" finished-at="2025-08-04T14:22:07 WIB" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_accountRegistration@63611043]" started-at="2025-08-04T18:02:24 WIB" name="tearDown" finished-at="2025-08-04T18:02:24 WIB" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_accountRegistration -->
       <class name="testCases.TC004_billPayment">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_billPayment@ab7395e]" started-at="2025-08-04T14:22:15 WIB" name="setup" finished-at="2025-08-04T14:22:18 WIB" duration-ms="2932" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_billPayment@7d9e8ef7]" started-at="2025-08-04T18:02:28 WIB" name="setup" finished-at="2025-08-04T18:02:30 WIB" duration-ms="1987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@ab7395e]" started-at="2025-08-04T14:22:18 WIB" name="billPayment" finished-at="2025-08-04T14:22:25 WIB" duration-ms="7588" status="PASS">
+        <test-method signature="billPayment(java.lang.String)[pri:0, instance:testCases.TC004_billPayment@7d9e8ef7]" started-at="2025-08-04T18:02:30 WIB" name="billPayment" finished-at="2025-08-04T18:02:32 WIB" duration-ms="2455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPayment -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_billPayment@ab7395e]" started-at="2025-08-04T14:22:25 WIB" name="tearDown" finished-at="2025-08-04T14:22:26 WIB" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_billPayment@7d9e8ef7]" started-at="2025-08-04T18:02:32 WIB" name="tearDown" finished-at="2025-08-04T18:02:32 WIB" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

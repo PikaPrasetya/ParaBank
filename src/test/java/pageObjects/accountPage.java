@@ -15,13 +15,13 @@ public class accountPage extends basePage{
 	@FindBy(xpath="//div/p[normalize-space()='Your account was created successfully. You are now logged in.']")
 	WebElement createAccSuccess;
 	
-	@FindBy(xpath="//h1[normalize-space()='Accounts Overview']")
+	@FindBy(linkText="Accounts Overview")
 	WebElement loginSuccess;
 	
-	@FindBy(xpath="//a[text()='Log Out']")
+	@FindBy(linkText="Log Out")
 	WebElement logOutLink;
 	
-	@FindBy(xpath="//a[text()='Bill Pay']")
+	@FindBy(linkText="Bill Pay")
 	WebElement billPayLink;
 		
 	public boolean valReg()
@@ -41,7 +41,7 @@ public class accountPage extends basePage{
 	{
 		try
 		{
-		String welcomeMsg = driver.findElement(By.xpath("//h1[text()='Welcome "+name+"']")).getText();
+		String welcomeMsg = driver.findElement(By.cssSelector("h1.title")).getText();
 		boolean nameStatus = welcomeMsg.equals("Welcome "+name);
 		return nameStatus;
 		}

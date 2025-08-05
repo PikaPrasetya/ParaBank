@@ -1,0 +1,14 @@
+[2025-08-04 17:40:38] [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Eclipse Workspace\Parabank\xml\master.xml"
+[2025-08-04 17:40:49] [main] INFO  testCases.TC001_accountRegistration - Click Register link
+[2025-08-04 17:40:49] [main] INFO  testCases.TC001_accountRegistration - Fill user info
+[2025-08-04 17:40:49] [main] INFO  testCases.TC001_accountRegistration - Click Register button
+[2025-08-04 17:40:50] [main] INFO  testCases.TC001_accountRegistration - Validate successful registration
+[2025-08-04 17:40:50] [main] INFO  testCases.TC001_accountRegistration - Send newly created account to config.properties
+[2025-08-04 17:40:53] [main] INFO  testCases.TC003_login - Fill username & passowrd
+[2025-08-04 17:40:55] [main] INFO  testCases.TC003_login - Click login button
+[2025-08-04 17:40:55] [main] INFO  testCases.TC003_login - Validate Login successful
+[2025-08-04 17:40:58] [main] INFO  testCases.TC004_billPayment - Login process
+[2025-08-04 17:40:59] [main] INFO  testCases.TC004_billPayment - click Bill Pay
+[2025-08-04 17:40:59] [main] INFO  testCases.TC004_billPayment - Fill payment info
+[2025-08-04 17:40:59] [main] INFO  testCases.TC004_billPayment - Click Send Payment button
+[2025-08-04 17:41:00] [main] INFO  testCases.TC004_billPayment - Validating payment
